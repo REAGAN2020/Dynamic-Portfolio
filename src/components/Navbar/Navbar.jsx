@@ -22,6 +22,8 @@ const Navbar = () => {
         ))}
       </ul>
 
+                {/*Start of side bar menu items */}
+
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
@@ -43,6 +45,9 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
+
+                      {/*End of side bar menu items */}
+
     </nav>
   );
 };
